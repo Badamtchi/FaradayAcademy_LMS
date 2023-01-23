@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "faradayacademy"
+version = "0.1.0"
+description = ""
+authors = ["Mehrdad <alex.badamtchi@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+uvicorn = "^0.20.0"
+fastapi = "^0.89.1"
+pydantic = "^1.10.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
